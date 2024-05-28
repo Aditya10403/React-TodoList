@@ -71,7 +71,7 @@ function App() {
       <TodoProvider
         value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
       >
-        <div className="min-h-screen py-8">
+        <div className="min-h-screen py-8 mt-20">
           <div
             className="w-full bg-[#3b66a6] max-w-2xl mx-auto shadow-md rounded-lg px-4
           py-3 text-white"
